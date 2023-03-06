@@ -12,6 +12,8 @@
 		A30086B329B554D800B2C015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30086B129B554D800B2C015 /* Main.storyboard */; };
 		A30086B529B554D900B2C015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30086B429B554D900B2C015 /* Assets.xcassets */; };
 		A30086B829B554D900B2C015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30086B629B554D900B2C015 /* LaunchScreen.storyboard */; };
+		A35034FC29B5733400031465 /* oceanLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A35034FB29B5733400031465 /* oceanLandscape.png */; };
+		A35034FE29B5733900031465 /* planeLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A35034FD29B5733900031465 /* planeLandscape.png */; };
 		A3A3698129B55654001A262E /* plane3.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A3696D29B55654001A262E /* plane3.png */; };
 		A3A3698229B55654001A262E /* plane2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A3696E29B55654001A262E /* plane2.png */; };
 		A3A3698329B55654001A262E /* plane1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A3696F29B55654001A262E /* plane1.png */; };
@@ -54,6 +56,8 @@
 		A30086B229B554D800B2C015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A30086B429B554D900B2C015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30086B729B554D900B2C015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A35034FB29B5733400031465 /* oceanLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oceanLandscape.png; sourceTree = "<group>"; };
+		A35034FD29B5733900031465 /* planeLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planeLandscape.png; sourceTree = "<group>"; };
 		A3A3696D29B55654001A262E /* plane3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane3.png; sourceTree = "<group>"; };
 		A3A3696E29B55654001A262E /* plane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane2.png; sourceTree = "<group>"; };
 		A3A3696F29B55654001A262E /* plane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane1.png; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 		A3A3696C29B55654001A262E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A35034FD29B5733900031465 /* planeLandscape.png */,
+				A35034FB29B5733400031465 /* oceanLandscape.png */,
 				A3A3696D29B55654001A262E /* plane3.png */,
 				A3A3696E29B55654001A262E /* plane2.png */,
 				A3A3696F29B55654001A262E /* plane1.png */,
@@ -302,12 +308,14 @@
 				A30086B329B554D800B2C015 /* Main.storyboard in Resources */,
 				A3A3698A29B55654001A262E /* ocean.png in Resources */,
 				A3A3698E29B55654001A262E /* engine.ogg in Resources */,
+				A35034FE29B5733900031465 /* planeLandscape.png in Resources */,
 				A3A3698829B55654001A262E /* cloud.png in Resources */,
 				A3A3698529B55654001A262E /* plane.png in Resources */,
 				A3A3699129B55654001A262E /* yay.mp3 in Resources */,
 				A30086B529B554D900B2C015 /* Assets.xcassets in Resources */,
 				A3A3698629B55654001A262E /* island.png in Resources */,
 				A3A3698329B55654001A262E /* plane1.png in Resources */,
+				A35034FC29B5733400031465 /* oceanLandscape.png in Resources */,
 				A3A3699029B55654001A262E /* thunder.mp3 in Resources */,
 				A30086B829B554D900B2C015 /* LaunchScreen.storyboard in Resources */,
 				A3A369A429B556A5001A262E /* StartScene.sks in Resources */,
