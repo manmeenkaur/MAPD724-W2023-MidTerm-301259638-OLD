@@ -54,9 +54,6 @@ Mail Pilot</string>
                                     <fontDescription key="titleFontDescription" name="Dock51" family="Dock 51" pointSize="46"/>
                                     <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="StartButton_Pressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="TsJ-7y-AiO"/>
-                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6m0-4P-0lY">
                                 <rect key="frame" x="20" y="218" width="390" height="191"/>
@@ -74,9 +71,6 @@ Mail Pilot</string>
                                     <fontDescription key="titleFontDescription" name="Dock51" family="Dock 51" pointSize="46"/>
                                     <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="RestartButton_Pressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="yhd-j5-6yT"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lives: 99" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXw-vz-AX5">
                                 <rect key="frame" x="20" y="59" width="150" height="30"/>
@@ -98,7 +92,7 @@ Mail Pilot</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xP-Gh-mz6">
-                                <rect key="frame" x="361" y="270" width="210" height="66"/>
+                                <rect key="frame" x="273" y="267" width="386" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="mlU-b5-Kh6"/>
                                 </constraints>
@@ -107,6 +101,9 @@ Mail Pilot</string>
                                     <fontDescription key="titleFontDescription" name="Dock51" family="Dock 51" pointSize="48"/>
                                     <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="StartButtonLandscape_Pressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="YGN-WM-LRo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-Tg-pXU">
                                 <rect key="frame" x="297" y="282" width="338" height="66"/>
@@ -115,6 +112,9 @@ Mail Pilot</string>
                                     <fontDescription key="titleFontDescription" name="Dock51" family="Dock 51" pointSize="48"/>
                                     <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="RestartButtonLandscape_Pressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="uXM-b5-m58"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play Mail Pilot" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2z-pu-ipK">
                                 <rect key="frame" x="144" y="124" width="644" height="123"/>
@@ -123,7 +123,7 @@ Mail Pilot</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmI-pt-zJz">
-                                <rect key="frame" x="197" y="124" width="538" height="123"/>
+                                <rect key="frame" x="144" y="113" width="644" height="146"/>
                                 <fontDescription key="fontDescription" name="Dock51" family="Dock 51" pointSize="80"/>
                                 <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
@@ -134,26 +134,26 @@ Mail Pilot</string>
                         <constraints>
                             <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="VxX-nt-gIZ" secondAttribute="bottom" constant="388" id="0DY-Sf-E8f"/>
                             <constraint firstItem="VxX-nt-gIZ" firstAttribute="top" secondItem="5lm-X3-RjI" secondAttribute="bottom" constant="39" id="0lG-lU-0Sh"/>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="7xP-Gh-mz6" secondAttribute="bottom" constant="60" id="2K6-u4-bJO"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="7xP-Gh-mz6" secondAttribute="bottom" constant="63" id="2K6-u4-bJO"/>
                             <constraint firstItem="f3O-ZU-SGm" firstAttribute="baseline" secondItem="y6A-qK-mBf" secondAttribute="baseline" id="4Ix-wI-AX9"/>
-                            <constraint firstItem="PmI-pt-zJz" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="197" id="8HP-ol-KGG"/>
-                            <constraint firstItem="7xP-Gh-mz6" firstAttribute="top" secondItem="H2z-pu-ipK" secondAttribute="bottom" constant="23" id="FZC-70-exK"/>
+                            <constraint firstItem="PmI-pt-zJz" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="144" id="8HP-ol-KGG"/>
+                            <constraint firstItem="7xP-Gh-mz6" firstAttribute="top" secondItem="H2z-pu-ipK" secondAttribute="bottom" constant="20" id="FZC-70-exK"/>
                             <constraint firstItem="6m0-4P-0lY" firstAttribute="trailing" secondItem="5lm-X3-RjI" secondAttribute="trailing" id="IW2-6x-Jbu"/>
                             <constraint firstItem="f3O-ZU-SGm" firstAttribute="leading" secondItem="5lm-X3-RjI" secondAttribute="leading" id="KQK-Ef-iKf"/>
-                            <constraint firstItem="7xP-Gh-mz6" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="361" id="MKm-4q-SE6"/>
+                            <constraint firstItem="7xP-Gh-mz6" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="273" id="MKm-4q-SE6"/>
                             <constraint firstItem="PmI-pt-zJz" firstAttribute="centerX" secondItem="H2z-pu-ipK" secondAttribute="centerX" id="N3a-Q5-98x"/>
                             <constraint firstItem="Hae-Fw-cg7" firstAttribute="baseline" secondItem="VxX-nt-gIZ" secondAttribute="baseline" id="U3F-K2-gjH"/>
                             <constraint firstItem="y6A-qK-mBf" firstAttribute="leading" secondItem="f3O-ZU-SGm" secondAttribute="trailing" constant="52" id="Vxc-Ig-E5g"/>
                             <constraint firstItem="jXw-vz-AX5" firstAttribute="top" secondItem="4qk-I5-YsI" secondAttribute="top" id="Wp6-JE-fhD"/>
                             <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="aLv-Tg-pXU" secondAttribute="bottom" constant="48" id="Z5Y-Re-CYF"/>
-                            <constraint firstItem="H2z-pu-ipK" firstAttribute="firstBaseline" secondItem="PmI-pt-zJz" secondAttribute="firstBaseline" id="bM0-i8-0oY"/>
+                            <constraint firstItem="H2z-pu-ipK" firstAttribute="firstBaseline" secondItem="PmI-pt-zJz" secondAttribute="firstBaseline" constant="11" id="bM0-i8-0oY"/>
                             <constraint firstItem="f3O-ZU-SGm" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leadingMargin" id="btR-tJ-Szk"/>
                             <constraint firstItem="6m0-4P-0lY" firstAttribute="leading" secondItem="5lm-X3-RjI" secondAttribute="leading" id="eYf-ah-HC7"/>
                             <constraint firstItem="jXw-vz-AX5" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leadingMargin" id="fTL-ds-ABp"/>
                             <constraint firstItem="Hae-Fw-cg7" firstAttribute="centerX" secondItem="VxX-nt-gIZ" secondAttribute="centerX" id="fqm-2f-BSK"/>
                             <constraint firstItem="aLv-Tg-pXU" firstAttribute="top" secondItem="H2z-pu-ipK" secondAttribute="bottom" constant="35" id="iqm-fy-CxI"/>
                             <constraint firstItem="f3O-ZU-SGm" firstAttribute="top" secondItem="4qk-I5-YsI" secondAttribute="top" id="k5j-wy-7OR"/>
-                            <constraint firstItem="H2z-pu-ipK" firstAttribute="baseline" secondItem="PmI-pt-zJz" secondAttribute="baseline" id="kvU-kH-4vE"/>
+                            <constraint firstItem="H2z-pu-ipK" firstAttribute="baseline" secondItem="PmI-pt-zJz" secondAttribute="baseline" constant="-12" id="kvU-kH-4vE"/>
                             <constraint firstItem="PmI-pt-zJz" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="kzK-2V-gZl"/>
                             <constraint firstItem="H2z-pu-ipK" firstAttribute="top" secondItem="jXw-vz-AX5" secondAttribute="bottom" constant="35" id="lii-lg-dJC"/>
                             <constraint firstItem="y6A-qK-mBf" firstAttribute="trailing" secondItem="5lm-X3-RjI" secondAttribute="trailing" id="qz6-Z2-MAN"/>
@@ -207,16 +207,22 @@ Mail Pilot</string>
                     </view>
                     <connections>
                         <outlet property="EndLabel" destination="6m0-4P-0lY" id="W0x-Bq-fzt"/>
+                        <outlet property="EndLabelLandscape" destination="PmI-pt-zJz" id="Hmd-xt-INH"/>
                         <outlet property="LivesLabel" destination="f3O-ZU-SGm" id="KoF-cU-wSu"/>
+                        <outlet property="LivesLabelLandscape" destination="jXw-vz-AX5" id="1Fg-a7-SQJ"/>
                         <outlet property="RestartButton" destination="Hae-Fw-cg7" id="T5C-wy-dhH"/>
+                        <outlet property="RestartButtonLandscape" destination="aLv-Tg-pXU" id="69E-vc-97g"/>
                         <outlet property="ScoreLabel" destination="y6A-qK-mBf" id="ZBu-tr-ipa"/>
+                        <outlet property="ScoreLabelLandscape" destination="ffL-gL-GVN" id="bDo-dO-f6F"/>
                         <outlet property="StartButton" destination="VxX-nt-gIZ" id="LlY-Ht-uyv"/>
+                        <outlet property="StartButtonLandscape" destination="7xP-Gh-mz6" id="LPh-dV-GL5"/>
                         <outlet property="StartLabel" destination="5lm-X3-RjI" id="a7h-QZ-JpO"/>
+                        <outlet property="StartLabelLandscape" destination="H2z-pu-ipK" id="She-dm-g0V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-592" y="-33"/>
+            <point key="canvasLocation" x="-592.27467811158806" y="-33.488372093023258"/>
         </scene>
     </scenes>
     <resources>
